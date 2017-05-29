@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+.demo {
+  border: 1px solid #FFF;
+  background-color: #DDD;
+  border-radius: 50%;
+  height: 100%;
+  width: 3%;
+  margin: 1%;
+}
+
+.hover-white:hover{
+  cursor: pointer;
+  background-color: #FFF;
+}
+
+/*.mySlides {
+  display: flex;
+  width: 100%;
+  margin-left: 0;
+}*/
+
+.img-shown{
+  display: block;
+}
+
+.img-hidden {
+  display: none;
+}
+
+.carrousel-inner {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  float: left;
+}
+
+.carrousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.previousLink, .nextLink {
+  float: left;
+  margin-top: 250px;
+}
